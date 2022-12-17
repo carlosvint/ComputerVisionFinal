@@ -103,10 +103,13 @@ def main(gpu, args):
     )
 
     # initialize ResNet
-    #encoder = Conformer()
-    encoder = get_resnet(args.resnet, pretrained=False)
-    n_features = encoder.fc.in_features
-    #n_features = 1024  # get dimensions of fc layer
+    
+    if args.model == 'resnet18'
+        encoder = get_resnet(args.resnet, pretrained=False)
+        n_features = encoder.fc.in_features
+    elif args.model == 'conformer'
+    encoder = Conformer()
+    n_features = 1024  # get dimensions of fc layer
 
     # initialize model
     model = SimCLR(encoder, args.projection_dim, n_features)
