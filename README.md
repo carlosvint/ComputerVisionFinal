@@ -8,3 +8,8 @@ The repository contains the code to train a Conformer in a supervised manner and
 [Link to SimCLR Paper](https://arxiv.org/abs/2002.05709) and [repository](https://github.com/Spijkervet/SimCLR)
 
 [Link to DINO Paper](https://arxiv.org/abs/2104.14294) and [repository](https://github.com/facebookresearch/dino)
+
+
+For SimCLR pretraining in the SimCLR directory execute 
+
+python main.py --dataset CIFAR10
