@@ -29,3 +29,4 @@ To visualize the feature map and attention layer output use:
 ```
 python feature_maps.py -model_path model_path
 ```
+![](Conformer/feature_maps_peacock.jpg)
