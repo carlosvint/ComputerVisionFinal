@@ -12,4 +12,8 @@ The repository contains the code to train a Conformer in a supervised manner and
 
 For SimCLR pretraining in the SimCLR directory execute 
 
+```
 python main.py --dataset CIFAR10
+```
+
+the model will be saved in the directory specified at config/config.yaml
