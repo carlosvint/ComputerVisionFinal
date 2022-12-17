@@ -17,3 +17,15 @@ python main.py --dataset CIFAR10
 ```
 
 the model will be saved in the directory specified at config/config.yaml
+
+To FineTune Conformer using a SimCLR pretrained model, specify the model path at the run.sh file and then run
+
+```
+sh run.sh
+```
+
+To visualize the feature map and attention layer output use:
+
+```
+python feature_maps.py -model_path model_path
+```
